@@ -1,0 +1,147 @@
+.popular-tags-for {
+    align-self: stretch;
+    position: relative;
+  }
+  .clutch {
+    position: relative;
+    line-height: 20px;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 43px;
+  }
+  .clutch-wrapper,
+  .frame-wrapper {
+    border-radius: var(--br-8xs);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .clutch-wrapper {
+    justify-content: flex-start;
+    padding: var(--padding-8xs) var(--padding-3xs);
+  }
+  .frame-wrapper {
+    background-color: var(--color-aliceblue-100);
+    border: 1px solid var(--color-dodgerblue);
+    justify-content: center;
+  }
+  .fabric-lining {
+    position: relative;
+    font-size: var(--font-size-smi);
+    line-height: 20px;
+    font-weight: 500;
+    font-family: var(--font-poppins);
+    color: var(--color-dodgerblue);
+    text-align: left;
+    display: inline-block;
+    min-width: 80px;
+  }
+  .fabric-lining-wrapper,
+  .frame-button {
+    border-radius: var(--br-8xs);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .fabric-lining-wrapper {
+    justify-content: flex-start;
+    padding: var(--padding-8xs) var(--padding-3xs);
+  }
+  .frame-button {
+    cursor: pointer;
+    border: 1px solid var(--color-dodgerblue);
+    padding: 0;
+    background-color: var(--color-aliceblue-100);
+    justify-content: center;
+  }
+  .baggit {
+    position: relative;
+    line-height: 20px;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 43px;
+  }
+  .baggit-wrapper,
+  .frame-wrapper1 {
+    border-radius: var(--br-8xs);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .baggit-wrapper {
+    justify-content: flex-start;
+    padding: var(--padding-8xs) var(--padding-3xs);
+  }
+  .frame-wrapper1 {
+    background-color: var(--color-aliceblue-100);
+    border: 1px solid var(--color-dodgerblue);
+    justify-content: center;
+  }
+  .multi-compartment {
+    flex: 1;
+    position: relative;
+    line-height: 20px;
+    font-weight: 500;
+  }
+  .frame-wrapper2,
+  .multi-compartment-wrapper {
+    border-radius: var(--br-8xs);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .multi-compartment-wrapper {
+    flex: 1;
+    justify-content: flex-start;
+    padding: var(--padding-8xs) var(--padding-3xs);
+  }
+  .frame-wrapper2 {
+    width: 150px;
+    background-color: var(--color-aliceblue-100);
+    border: 1px solid var(--color-dodgerblue);
+    box-sizing: border-box;
+    justify-content: center;
+  }
+  .frame-parent4 {
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-3xs);
+  }
+  .chevron-right-icon {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .chevron-right-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-parent3,
+  .popular-tags-for-handbag-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-8xs);
+    color: var(--color-dodgerblue);
+  }
+  .popular-tags-for-handbag-parent {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--gap-3xs);
+    text-align: left;
+    font-size: var(--font-size-smi);
+    color: var(--color-gray);
+    font-family: var(--font-poppins);
+  }
+  

@@ -1,0 +1,118 @@
+.hi-sam-i {
+    flex: 1;
+    position: relative;
+  }
+  .hi-sam-i-am-your-personal-sho-wrapper {
+    width: 250px;
+    border-radius: var(--br-mini);
+    background: linear-gradient(100.24deg, #e6eeff, #fff);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-3xs) var(--padding-mini);
+    box-sizing: border-box;
+  }
+  .pm {
+    flex: 1;
+    position: relative;
+    white-space: nowrap;
+  }
+  .frame-group,
+  .pm-wrapper {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .pm-wrapper {
+    flex-direction: row;
+    padding: 0 var(--padding-3xs);
+    font-size: var(--font-size-3xs);
+  }
+  .frame-group {
+    flex-direction: column;
+    gap: var(--gap-8xs);
+  }
+  .i-am-looking {
+    flex: 1;
+    position: relative;
+  }
+  .i-am-looking-for-a-hand-bag-w-wrapper {
+    width: 213px;
+    border-radius: var(--br-mini);
+    background-color: #dcf7c5;
+    border: 1px solid var(--color-white);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-3xs) 14px;
+  }
+  .pm1 {
+    flex: 1;
+    position: relative;
+    white-space: nowrap;
+  }
+  .pm-container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 var(--padding-3xs);
+    text-align: right;
+    font-size: var(--font-size-3xs);
+  }
+  .frame-container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: var(--gap-8xs);
+  }
+  .frame-parent {
+    flex: 1;
+    overflow: hidden;
+    flex-direction: column;
+    padding: 50px var(--padding-3xs) var(--padding-12xl);
+    gap: var(--gap-xl);
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-smi);
+    color: var(--color-darkslategray);
+    font-family: var(--font-poppins);
+  }
+  .frame-parent,
+  .krunk,
+  .krunk-inner {
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .krunk-inner {
+    width: 360px;
+    background: radial-gradient(
+      50% 50%at 50% 50%,
+      #fff 50.47%,
+      rgba(226, 225, 225, 0)
+    );
+    flex-direction: row;
+    padding: 0 var(--padding-8xs);
+    max-width: 100%;
+  }
+  .krunk {
+    width: 100%;
+    position: relative;
+    border-radius: var(--br-xl);
+    background-color: var(--color-white);
+    border: 7px solid var(--color-white);
+    overflow: hidden;
+    flex-direction: column;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  

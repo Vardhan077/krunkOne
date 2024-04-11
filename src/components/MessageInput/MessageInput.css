@@ -1,0 +1,121 @@
+.type-your-message1 {
+    width: calc(100% - 48px);
+    border: 0;
+    outline: 0;
+    font-family: var(--font-poppins);
+    font-size: var(--font-size-smi);
+    background-color: transparent;
+    height: 20px;
+    flex: 1;
+    position: relative;
+    color: var(--color-gray);
+    text-align: left;
+    display: inline-block;
+    min-width: 129px;
+    padding: 0;
+  }
+  .paperclip-icon {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 20px;
+  }
+  .type-your-message {
+    flex: 1;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-lavender);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) var(--padding-4xs) var(--padding-3xs)
+      var(--padding-lgi);
+  }
+  .products-listing-icon {
+    height: 15px;
+    width: 7.5px;
+    position: relative;
+  }
+  .bags-on-timpu {
+    height: 40px;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-dodgerblue);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-5xs) var(--padding-12xl);
+    box-sizing: border-box;
+  }
+  .type-your-message-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-9xs) 0 0;
+    gap: var(--gap-8xs);
+  }
+  .krunkai,
+  .powered-by {
+    position: relative;
+    display: inline-block;
+    min-width: 76px;
+  }
+  .krunkai {
+    font-weight: 600;
+    color: var(--color-slategray);
+    min-width: 55px;
+  }
+  .logo-icon {
+    width: 18px;
+    height: 18px;
+    position: relative;
+    object-fit: cover;
+  }
+  .clutch-bag-tag {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) 0 0;
+  }
+  .message-input,
+  .powered-by-parent,
+  .set-filter-button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .powered-by-parent {
+    justify-content: flex-start;
+    gap: var(--gap-8xs);
+  }
+  .message-input,
+  .set-filter-button {
+    align-self: stretch;
+    justify-content: center;
+    padding: 0 var(--padding-4xl) 0 var(--padding-xl);
+  }
+  .message-input {
+    height: 84px;
+    background: linear-gradient(100.27deg, #eff3fd, rgba(239, 243, 253, 0));
+    border: 2px solid var(--color-white);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--padding-8xs) var(--padding-5xs);
+    gap: var(--gap-3xs);
+    text-align: left;
+    font-size: var(--font-size-smi);
+    color: var(--color-darkgray);
+    font-family: var(--font-poppins);
+  }
+  
